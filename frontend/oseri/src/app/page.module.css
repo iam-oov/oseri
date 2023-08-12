@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.product:hover {
+  background-color: #ddd;
+}
+
+.logo {
+  width: 6.5rem;
+  height: 6.5rem;
+  margin-bottom: 0.5rem;
+}
